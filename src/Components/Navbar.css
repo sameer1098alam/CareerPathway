@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+nav {
+  background-color: #333; /* Set background color for the Navbar */
+  padding: 10px; /* Add padding for spacing */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  margin-right: 20px; /* Add margin to separate logo from NavLink */
+}
+
+.logo img {
+  width: 50px; /* Set width for the logo image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav a {
+  color: white; /* Set text color for NavLink */
+  text-decoration: none; /* Remove underline from NavLink */
+  margin-right: 10px; /* Add margin between NavLinks */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+nav li {
+  display: inline; /* Display NavLinks inline */
+}
+
+.active {
+  font-weight: bold; /* Style active NavLink */
+}

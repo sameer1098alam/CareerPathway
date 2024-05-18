@@ -1,0 +1,48 @@
+/* Login.css */
+
+.login-container {
+    max-width: 400px; /* Set maximum width for the login container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Set background color for the login container */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+    margin-top: 30px; /* Add margin at the top of the container */
+
+
+  }
+  
+  .login-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack form elements vertically */
+
+  }
+  
+  .login-form input,
+  .login-form button {
+    margin-bottom: 10px; /* Add margin at the bottom of input fields and button */
+    padding: 10px; /* Add padding for input fields and button */
+    border: 1px solid #ccc; /* Add border for input fields and button */
+    border-radius: 4px; /* Add border radius for rounded corners */
+
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%; /* Set input fields to fill the container width */
+
+  }
+  
+  .login-form button {
+    background-color: #333; /* Set background color for the button */
+    color: white; /* Set text color for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+
+  }
+
+  
+  .login-form button:hover {
+    background-color: #555; /* Darken background color on hover */
+
+  }
+  

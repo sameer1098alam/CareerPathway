@@ -1,0 +1,21 @@
+/* Home.css */
+
+.home-page {
+    padding: 0px; /* Add padding for spacing */
+  }
+  
+  .carousel {
+    margin-top: 0px; /* Add margin to separate the carousel from the heading */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color for the carousel caption */
+    padding: 20px; /* Add padding for the caption */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    color: white; /* Set text color for the caption */
+  }
+  

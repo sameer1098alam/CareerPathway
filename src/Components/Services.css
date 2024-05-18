@@ -1,0 +1,18 @@
+/* Services.css */
+
+.services-container {
+    padding: 20px;
+  }
+  
+  .services-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-box {
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    padding: 15px; /* Add padding */
+    margin-bottom: 15px; /* Add margin between boxes */
+  }
+  

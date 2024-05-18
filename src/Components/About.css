@@ -1,0 +1,15 @@
+/* About.css */
+
+/* Flex container for cards */
+.cards-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+    justify-content: space-around; /* Distribute flex items evenly with space around */
+  }
+  
+  /* Styles for cards */
+  .card {
+    margin: 20px; /* Add margin around each card */
+    width: 18rem; /* Set width for each card */
+  }
+  
