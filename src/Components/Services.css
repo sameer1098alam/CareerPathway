@@ -1,18 +1,167 @@
-/* Services.css */
+/* Testimonials.css */
 
-.services-container {
-    padding: 20px;
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section_title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.testimonial-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.testimonial-container,
+.swiper-container {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 100%;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.back-icon svg {
+  cursor: pointer;
+}
+
+.font-lg {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.my-4 {
+  margin: 1.5rem 0;
+}
+
+.MuiDivider-root {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0;
+}
+
+.MuiRating-root {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.MuiRating-icon {
+  font-size: 1.5rem;
+  margin-right: 0.25rem;
+}
+
+.MuiRating-iconFilled {
+  color: #ffb400;
+}
+
+.MuiRating-iconEmpty {
+  color: #e0e0e0;
+}
+
+.MuiLinearProgress-root {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+.MuiLinearProgress-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #3f51b5;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #3f51b5;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+button svg {
+  margin-left: 0.5rem;
+}
+
+.swiper {
+  margin-top: 2rem;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swiper-slide {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.swiper-slide h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.swiper-slide p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-layout {
+    grid-template-columns: 1fr;
   }
-  
-  .services-container h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .service-box {
-    border: 1px solid #ccc; /* Add border */
-    border-radius: 5px; /* Add border radius */
-    padding: 15px; /* Add padding */
-    margin-bottom: 15px; /* Add margin between boxes */
-  }
-  
+}

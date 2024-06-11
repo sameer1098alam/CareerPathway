@@ -9,6 +9,8 @@ import Navbar from "./Components/Navbar";
 import Register from "./Components/Register";
 import Services from "./Components/Services";
 //import User from "./Components/User";
+import Testomony from "./Components/Testomony";
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/mentor" element={<Mentor />} />
+        <Route path="/Testomony" element={<Testomony />} />
       </Routes>
     </Router>
   );
